@@ -81,6 +81,9 @@ public class UserController {
 		List<User> users = StreamSupport.stream(userService.findAll().spliterator(), false).collect(Collectors.toList());
 		
 		return users;
+		
+		
+		
 	}
 	
 
